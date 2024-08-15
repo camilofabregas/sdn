@@ -1,0 +1,18 @@
+{
+  "block_communications": [["10.10.10.2", "10.10.11.1"]],
+  "block_messages": [
+    {
+      "dest_port": 80,
+      "protocol": "TCP"
+    },
+    {
+      "dest_port": 80,
+      "protocol": "UDP"
+    },
+    {
+      "src_ip": "10.10.10.1",
+      "dest_port": 5001,
+      "protocol": "UDP"
+    }
+  ]
+}
